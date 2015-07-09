@@ -1,0 +1,4 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: When you initialize a repository, a folder .git is created with all the 
+metadata needed by Git for the version control. This step is needed to be
+able to track changes on files with Git.
