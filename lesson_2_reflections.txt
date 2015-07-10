@@ -32,4 +32,4 @@ Q: What are the pros and cons of Git’s automatic merging vs. always doing
 merges manually
 A: Automatic merging can save us time. Howerer, this can lead to
 inconsistencies in the code. Thus, it is important to let the users to
-decide which is the best way to solce the merge,
+decide which is the best way to solve the merge.
