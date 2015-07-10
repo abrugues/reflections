@@ -7,14 +7,18 @@ Q: How is the staging area different from the working directory and the
 repository? What value do you think it offers?
 A: The staging area is a layer between the working directory and the
 repository. There is where we place the files before the commit. Thus, it 
-makes easier to respect the rule of one single commit per logical change
+makes easier to respect the rule of one single commit per logical change.
 
 Q: How can you use the staging area to make sure you have one commit per 
 logical change? 
 A: We can add files one by one to the staging area, then compare with the
-repository using the command 'git diff --staged' before each commit
+repository using the command 'git diff --staged' before each commit.
 
 Q: What are some situations when branches would be helpful in keeping your
 history organized? How would branches help?
 A: The use of branches can help to implement experimental features. Thus, you 
 leave the master branch intact and your project is always ready to show.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: The diagrams shows at which point the branch was created, so that it can
+help to see the features not included from the master branch.
