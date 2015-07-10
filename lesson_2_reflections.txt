@@ -27,3 +27,9 @@ Q: What is the result of merging two branches together? Why do we represent
 it in the diagram the way we do?
 A: By merging two branches we can combine the new features we were working 
 on into the master branch.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually
+A: Automatic merging can save us time. Howerer, this can lead to
+inconsistencies in the code. Thus, it is important to let the users to
+decide which is the best way to solce the merge,
