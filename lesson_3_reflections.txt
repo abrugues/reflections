@@ -20,3 +20,10 @@ stored locally?
 A: If you know that you will not have Internet access, beacause you are 
 travelling for instance, you can update to the last state. Then you can
 consult or merge to this last state at that particular point in time.
+
+Q: How would you collaborate without using Git or GitHub?  What would be 
+easier, and what would be harder?
+A: Without using Git or GitHub I would use other version control systems like 
+svn. However, the use of GitHub has the advantage of being available for
+everybody and from everywhere so that you don't have to set up a a back end 
+infrastructure.
