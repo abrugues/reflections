@@ -14,3 +14,9 @@ A: A clone is a copy of a repository that we do in our local machine. A fork
 is a kind of clone that is used in GitHub, so that the clone can be shown in
 the user's profile. A branch is a split of a repository, so that different 
 modifications can happen in parallel along the branches.
+
+Q: What is the benefit of having a copy of the last known state of the remote
+stored locally?
+A: If you know that you will not have Internet access, beacause you are 
+travelling for instance, you can update to the last state. Then you can
+consult or merge to this last state at that particular point in time.
