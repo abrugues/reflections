@@ -27,3 +27,10 @@ A: Without using Git or GitHub I would use other version control systems like
 svn. However, the use of GitHub has the advantage of being available for
 everybody and from everywhere so that you don't have to set up a a back end 
 infrastructure.
+
+Q: When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+A: In projects collaborating with a big number of people it might be better 
+to work on separate branches. This way, the changes in the master branch can 
+be approved by the team. On the other hand in small projects of 2-3 people 
+it is fine to work directly on the master branch.
