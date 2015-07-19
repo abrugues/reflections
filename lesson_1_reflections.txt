@@ -1,47 +1,54 @@
 Q: How did viewing a diff between two versions of a file help you see the
 bug that was introduced?
 A: The use of diff did the task more efficient, as it shows you only the 
-differences between the two versions of the file.
+differences between the two versions of the file. Thus, you can forget 
+about the common parts in the file. 
 
 Q: How could having easy access to the entire history of a file make
 you a more efficient programmer in the long term?
-A: Having access to the history we can track changes in files. This
+A: Having access to the history we can track changes in a file. This
 means that in the case of having a bug in our code we can go to
 previous working version. Moreover, if we want to test something and
 we introduced many changes, we can undo the changes if the new code is
-not working.
+not working. In general terms we can be less afraid of breaking the
+code.
 
 Q: What do you think are the pros and cons of manually choosing when
 to create a commit, like you do in Git, vs having versions
 automatically saved, like Google docs does?
 A: The pros and cons depends on the type of work you are doing. If you
-write code, it would be more convinient to create a commit as in this
-case you don't want to save something that may contain a bug. On the
-other hand if you write a text document you might want that the
-content is saved autommatically so that you don't have to do it
-manually.
+write code, it is more convinient to create a commit, as in this case
+you want to save something that you know that is working. On the other
+hand if you write a text document you might want that the content is
+saved autommatically so that you don't have to do it manually.
 
 Q: Why do you think some version control systems, like Git, allow 
 saving multiple files in one commit, while others, like Google Docs,
 treat each file separately?
 A: Git is specifically designed to be used in the production of software.
 In there the different files may be part of a whole application, so that 
-they are related. In systems like Google Docs, each document might be 
-independent.
+they are related. This means that changes produced in different files
+can be releated to a logical change. This is not the case for systems
+like Google Docs, where each document might be independent.
 
 Q: How can you use the commands git log and git diff to view the history
 of files?
-A: With git log we can see the list of commits in the repository. Then, we 
-can use git diff to compare the differences between two commits, usig the 
-commit id.
+A: With git log we can see the list of commits, or versions, in the
+repository along with their comment. With this infromation we can get
+an idea on how the repository evolved over the time. Then, to see the
+specific differences between two commits we can use the command git diff, 
+usig the ids of the commits that we want to compare.
 
 Q: How might using version control make you more confident to make changes
 that could break something?
 A: The posibility to switch the repository to a previous state with the
-command git checkout, ensures that you can track changes and detect bugs. 
+command git checkout, allows you to be less afraid in changing something.
+If the changes that you introduce breake the code, you don't have to 
+remember what you changed to return to the previous state. 
 
 Q: Now that you have your workspace set up, what do you want to try using 
 Git for?
-A: I want to try Git to improve my programming skills, as now I can do
-changes without having the fear of breaking existing working code. I also 
-want to try it with LaTeX documents.
+A: I want to try Git in my projects, as it is a powerfull tool when it
+is used in programming. The posibility to do changes knowing that you can
+revert to a previous working code is really nice. I also want to try it
+with LaTeX documents to avoid duplicate versions of a file.
