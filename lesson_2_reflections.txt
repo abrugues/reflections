@@ -1,7 +1,7 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
-A: When you initialize a repository, a folder .git is created with all the 
-metadata needed by Git for the version control. This step is needed to be
-able to track changes on files with Git.
+A: When you initialize a repository, a folder named .git is created. This
+folder contains all the metadata needed by Git for the version control. 
+This step is needed to be able to track changes on files with Git.
 
 Q: How is the staging area different from the working directory and the 
 repository? What value do you think it offers?
@@ -11,8 +11,9 @@ makes easier to respect the rule of one single commit per logical change.
 
 Q: How can you use the staging area to make sure you have one commit per 
 logical change? 
-A: We can add files one by one to the staging area, then compare with the
-repository using the command 'git diff --staged' before each commit.
+A: We can add to the staging area only the files related with the logical
+change. Additionally we can compare the files in the staging area with the
+ones in repository using the command 'git diff --staged' before the commit.
 
 Q: What are some situations when branches would be helpful in keeping your
 history organized? How would branches help?
@@ -20,16 +21,18 @@ A: The use of branches can help to implement experimental features. Thus,
 you leave the master branch intact and your project is always ready to show.
 
 Q: How do the diagrams help you visualize the branch structure?
-A: The diagrams shows at which point the branch was created, so that it can
-help to see the features not included from the master branch.
+A: The diagrams shows at which point the branch was created, and all the 
+commits related to each branch. It can help to realize which changes were
+introduced in each branch.
 
 Q: What is the result of merging two branches together? Why do we represent
 it in the diagram the way we do?
-A: By merging two branches we can combine the new features we were working 
-on into the master branch.
+A: By merging two branches we can combine in a new commit all the changes
+introduced by both branches. This is represented in the diagram as having
+two parents, the last commit of each branch. 
 
 Q: What are the pros and cons of Git’s automatic merging vs. always doing
 merges manually
 A: Automatic merging can save us time. Howerer, this can lead to
-inconsistencies in the code. Thus, it is important to let the users to
-decide which is the best way to solve the merge.
+inconsistencies in the code. In these cases, it is important to let the
+users to decide which is the best way to solve the merge.
